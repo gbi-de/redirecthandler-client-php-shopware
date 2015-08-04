@@ -49,17 +49,17 @@ class Shopware_Plugins_Backend_GbiRedirecthandler_Bootstrap extends Shopware_Com
 		$form->setElement('text', 'apikey',            
 			array(
 				'label' => 'API-Key',
-	            'value' => '',
-	            'description' => 'Your API Key',
-	            'required' => true
+				'value' => '',
+				'description' => 'Your API Key',
+				'required' => true
 			)
 		);
 		$form->setElement('text', 'apiurl',            
 			array(
 				'label' => 'API-URL',
-	            'value' => 'https://tao.goldbach.com/redirect/',
-	            'description' => 'API URL of the redirecthandler. Default: https://tao.goldbach.com/redirect/',
-	            'required' => true
+				'value' => 'https://tao.goldbach.com/redirect/',
+				'description' => 'API URL of the redirecthandler. Default: https://tao.goldbach.com/redirect/',
+				'required' => true
 			)
 		);
 	}
