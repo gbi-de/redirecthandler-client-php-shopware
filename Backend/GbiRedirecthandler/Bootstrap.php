@@ -10,9 +10,9 @@ class Shopware_Plugins_Backend_GbiRedirecthandler_Bootstrap extends Shopware_Com
 
 	public function getCapabilities() {
 		return array(
-				'install' => true,
-				'update' => true,
-				'enable' => true
+			'install' => true,
+			'update' => true,
+			'enable' => true
 		);
 	}
 
