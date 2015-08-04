@@ -72,7 +72,6 @@ class Shopware_Plugins_Backend_GbiRedirecthandler_Bootstrap extends Shopware_Com
 	 */
 	protected function handleError(Enlight_Controller_Request_Request $request){
 		$sUrl = $request->getPathInfo();
-		echo "404 ".$sUrl;
 		
 		$redirectServerBaseUrl = $this->Config()->get('apiurl');
 		$apikey = $this->Config()->get('apikey');
